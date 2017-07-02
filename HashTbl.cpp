@@ -1,6 +1,4 @@
 // Name: Ali Bayati 
-// Problem: Hash Table
-// Chapter  8 
 
 
 #include<iostream>
@@ -16,8 +14,10 @@ struct book
 
 };
 void loadTable(book[], int);
-int getHashKey(int, int);void loadBook(book[], book, int);
-void printBook(book);void clearTable(book[], int);
+int getHashKey(int, int);
+void loadBook(book[], book, int);
+void printBook(book);
+void clearTable(book[], int);
 void placeOrder(book[], int);
 int menu();
 
